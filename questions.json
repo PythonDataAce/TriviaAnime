@@ -1,0 +1,83 @@
+{
+  "onePiece": [
+    {
+      "question": "¿Cuál es el nombre del protagonista de One Piece?",
+      "options": ["Goku", "Luffy", "Naruto", "Ichigo"],
+      "answer": "Luffy"
+    },
+    {
+      "question": "¿Quién es el capitán de los Piratas de Big Mom en One Piece?",
+      "options": ["Shanks", "Kaido", "Big Mom", "Blackbeard"],
+      "answer": "Big Mom"
+    },
+    {
+      "question": "¿Cuál es el nombre de la espada de Zoro en One Piece?",
+      "options": ["Excalibur", "Wado Ichimonji", "Tensa Zangetsu", "Mjölnir"],
+      "answer": "Wado Ichimonji"
+    },
+    {
+      "question": "¿Qué fruta del diablo come Luffy en One Piece?",
+      "options": ["Fruta del Diablo de Fuego", "Fruta del Diablo Gomu Gomu", "Fruta del Diablo de Hielo", "Fruta del Diablo del Mar"],
+      "answer": "Fruta del Diablo Gomu Gomu"
+    },
+    {
+      "question": "¿Dónde se encuentra la ciudad de Water 7 en One Piece?",
+      "options": ["En la cima de Reverse Mountain", "En la Grand Line", "En el East Blue", "En la Red Line"],
+      "answer": "En la Grand Line"
+    }
+  ],
+  "dragonBall": [
+    {
+      "question": "¿Cuál es el nombre del planeta natal de Goku en Dragon Ball?",
+      "options": ["Namek", "Vegeta", "Tierra", "Planeta del Rey Kai"],
+      "answer": "Vegeta"
+    },
+    {
+      "question": "¿Qué transformación de Saiyajin aumenta la fuerza de combate de un Saiyajin en Dragon Ball?",
+      "options": ["Super Saiyajin", "Saiyajin Dios", "Saiyajin Mono Gigante", "Saiyajin Legendario"],
+      "answer": "Super Saiyajin"
+    },
+    {
+      "question": "¿Cuál es la ocupación de Bulma en Dragon Ball?",
+      "options": ["Guerrera Z", "Científica", "Cocinera", "Reportera"],
+      "answer": "Científica"
+    },
+    {
+      "question": "¿Cuál es la técnica característica de Krilin en Dragon Ball?",
+      "options": ["Kamehameha", "Genkidama", "Taiyoken", "Destructor de Discos"],
+      "answer": "Taiyoken"
+    },
+    {
+      "question": "¿Qué criatura mágica es la mascota de Goku en Dragon Ball?",
+      "options": ["Gato Buscador", "Puar", "Oolong", "Shenlong"],
+      "answer": "Puar"
+    }
+  ],
+  "naruto": [
+    {
+      "question": "¿Cuál es el apellido completo de Naruto en Naruto?",
+      "options": ["Uchiha", "Namikaze", "Uzumaki", "Hyuga"],
+      "answer": "Uzumaki"
+    },
+    {
+      "question": "¿Quién es el Hokage más joven de la aldea de la Hoja en Naruto?",
+      "options": ["Hiruzen Sarutobi", "Tsunade Senju", "Kakashi Hatake", "Naruto Uzumaki"],
+      "answer": "Naruto Uzumaki"
+    },
+    {
+      "question": "¿Cuál es la técnica de lucha característica de Rock Lee en Naruto?",
+      "options": ["Jutsu Clon de Sombra", "Jutsu de Transformación", "Jutsu de la Llamarada", "Taijutsu"],
+      "answer": "Taijutsu"
+    },
+    {
+      "question": "¿Qué criatura demoníaca está sellada dentro de Gaara en Naruto?",
+      "options": ["Kyubi", "Shukaku", "Matatabi", "Isobu"],
+      "answer": "Shukaku"
+    },
+    {
+      "question": "¿Cuál es el objetivo principal de Itachi Uchiha en Naruto?",
+      "options": ["Obtener poder", "Vengar a su clan", "Proteger a su hermano", "Encontrar el amor verdadero"],
+      "answer": "Proteger a su hermano"
+    }
+  ]
+}

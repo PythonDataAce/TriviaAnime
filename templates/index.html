@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia de Anime</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Agrega tu archivo CSS aquí -->
+</head>
+<body>
+    <header>
+        <h1>Trivia de Anime</h1>
+        <p>Elige tu anime favorito:</p>
+        <select id="animeSelection">
+            <option value="onePiece">One Piece</option>
+            <option value="dragonBall">Dragon Ball</option>
+            <option value="naruto">Naruto</option>
+        </select>
+    </header>
+    
+    <main>
+        <div id="questionContainer">
+            <h2>Pregunta:</h2>
+            <table>
+                <tr>
+                    <td id="questionText"></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="answer" id="option1"><label for="option1" id="label1"></label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="answer" id="option2"><label for="option2" id="label2"></label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="answer" id="option3"><label for="option3" id="label3"></label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="answer" id="option4"><label for="option4" id="label4"></label></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="feedback">
+            <p id="resultMessage"></p>
+            <button id="nextButton">Siguiente Pregunta</button>
+        </div>
+
+        <div id="score">
+            <p>Puntuación: <span id="scoreValue">0</span></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script> <!-- Agrega tu archivo JavaScript aquí -->
+</body>
+</html>

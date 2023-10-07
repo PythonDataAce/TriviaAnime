@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia de Anime</title>
+    <!-- Enlace al archivo CSS de Bootstrap (ajusta la ruta si es necesario) -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="static/css/styles.css" />
+</head>
+<body>
+    <header class="container mt-5">
+        <h1 class="text-center">Trivia de Anime</h1>
+        <div class="row justify-content-center">
+<body>
+            <div id="animeCarousel" class="carousel slide" data-bs-ride="false" data-bs-interval="false">
+                <!-- Indicadores -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#animeCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#animeCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#animeCarousel" data-bs-slide-to="2"></li>
+                </ol>
+                <!-- Slides del carrusel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/onePiece.jpg" alt="onePiece" class="img-fluid mx-auto d-block">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>One Piece</h5>
+                            <p>Una serie de anime y manga ambientada en el mundo de la piratería. Sigue las aventuras de Monkey D. Luffy y su tripulación en busca del tesoro conocido como One Piece.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/dragonBall.jpg" alt="dragonBall" class="img-fluid mx-auto d-block">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Dragon Ball</h5>
+                            <p>Una serie de anime y manga que sigue las aventuras de Goku en su búsqueda de las Esferas del Dragón. La serie incluye emocionantes batallas y personajes poderosos.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/naruto.jpg" alt="naruto" class="img-fluid mx-auto d-block">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Naruto</h5>
+                            <p>Una serie de anime y manga que narra la historia de Naruto Uzumaki, un joven ninja con sueños de convertirse en el Hokage de su aldea. La serie está llena de acción y aventuras.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controles del carrusel -->
+                <a class="carousel-control-prev" href="#animeCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#animeCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <div id="questionContainer">
+            <h2 class="text-center">Pregunta:</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td id="questionText"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="answer" id="option1"><label for="option1" id="label1"></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="answer" id="option2"><label for="option2" id="label2"></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="answer" id="option3"><label for="option3" id="label3"></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="answer" id="option4"><label for="option4" id="label4"></label></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="feedback" class="text-center mt-4">
+            <p id="resultMessage"></p>
+            <button id="nextButton" class="btn btn-primary">Siguiente Pregunta</button>
+            <button id="restartButton" class="btn btn-secondary">Reiniciar Juego</button>
+        </div>
+        
+
+        <div id="score" class="text-center mt-4">
+            <p>Puntuación: <span id="scoreValue">0</span></p>
+        </div>
+    </main>
+
+    <!-- Enlace a la biblioteca de Bootstrap (ajusta la ruta si es necesario) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Agrega tu propio archivo JavaScript aquí -->
+    <script src="static/js/script.js"></script>
+</body>
+</html>
