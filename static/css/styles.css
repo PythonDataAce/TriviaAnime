@@ -30,3 +30,19 @@ input[type="submit"] {
 }
 
 /* Puedes agregar más estilos aquí */
+
+#animeCarousel h5,
+#animeCarousel p {
+  color: white; /* Color del texto blanco */
+  text-shadow: 2px 2px 4px black, -2px -2px 4px black; /* Sombra negra al texto con desplazamiento */
+  background-color: rgba(0, 0, 0, 0.047); /* Fondo semitransparente negro */
+  padding: 5px; /* Espacio alrededor del texto para que el fondo sea visible */
+  /* Otros estilos CSS según tus preferencias */
+}
+
+
+.carousel-inner img {
+    width: 50%; /* Establece un ancho del 100% para que las imágenes se ajusten al contenedor */
+    height: auto; /* Mantén la proporción de aspecto original */
+  }
+  
